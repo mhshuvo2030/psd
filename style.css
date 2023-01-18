@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+:root {
+    --App-Primary-Color:#2500f9;
+    --App-Secondary-Color:#8e44ad;
+    --App-Font-Color: #242f51;
+    --app-hover-color:#2500f9;
+    --app-text-color:#616368;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.section-heading h2{
+    font-weight: 600;
+    color: var(--App-Font-Color);
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    color: var(--app-text-color);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Header Section */
+
+.header-area {
+    background-color: #fdfdfe;
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-top {    
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav.primary-menu ul li {
+    display: inline-block;
+}
+
+nav.primary-menu ul li a {
+    color:var(--App-Font-Color) ;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.app-primary-button {
+    background-color: var(--App-Secondary-Color);
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 41px;
+    border-radius: 50px;
+}
+
+.app-primary-button:hover {
+    background-color: var(--app-hover-color);
+}
+
+.nav-menu-area {
+    display: flex;
+    align-items: center;
+}
+
+.app-banner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+
+.promotional-text {
+    display: flex;
+    align-items: center;
+    background-color: #e2eaed;
+    border-radius: 30px;
+    width: 350px;
+    gap: 10px;
+}
+
+.promotional-text i {
+    background-color: #feaa25;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 9px;
+    
+}
+
+.promotional-text h2 {
+    color: var(--App-Font-Color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.app-banner-content {
+    margin-top: 28px;
+    
+}
+.app-banner-content h2{
+    color: var(--App-Font-Color);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;    
+}
+
+.app-banner-content p{
+    color: #616368;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    width: 500px;
+}
+
+.app-banner-button a {
+    text-decoration: none;
+}
+
+.app-banner-button a:last-child {
+    margin-left: 28px;
+    color: var(--App-Primary-Color);
+}
+
+/* / Header Section */
+
+/* Main Section */
+
+.like h2 {
+  text-align: center;
+  color: var(--App-Font-Color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-top: 110px;
+  margin-bottom: 30px;
+}
+
+.like-logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 208px;
+}
+.Awesome-apps-area{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.Awesome-apps{
+    display: flex;
+    gap: 50px;
+}
+.awsome-apps-single-area{
+    margin-top: 90px;
+
+}
+.awsome-apps-single{
+    margin-bottom: 65px;
+    display: flex;
+    gap: 33px;
+}
+.awsome-apps-single h2{
+    font-size: 25px;
+    line-height: 20px;
+    color: #f55767;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+.awsome-apps-single p{
+    color: var(--app-text-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+.awsome-apps-single:nth-child(2) h2{
+    color: var(--App-Primary-Color);
+}
+.awsome-apps-single:nth-child(3) h2{
+    color: #40975f;
+}
+
+.smart-area{
+    display: flex;
+    gap: 70px;
+    text-align: center;
+}
+.smart-left h2{
+      font-size: 33px;
+      line-height: 40px;
+      font-weight: 600;
+      margin-bottom: 23px;
+      color: #242f51;
+      text-align: left;
+      border-right: 3px solid #b9b9b8;
+}
+.smart-right p {
+     color: var(--app-text-color);
+    font-size: 25px;
+    line-height: 33px;
+     text-align: left;
+}
+.smart-right:after{
+    content:"";
+    font-weight: 50px;
+    line-height: 20px;
+    background-color: red;
+}
+
+.Automatic-Payouts {
+  display: flex;
+  margin-top: 100px;
+  gap: 120px;
+}
+/* /Main Section */
