@@ -699,4 +699,14 @@ nav.primary-menu ul li a {
   margin-top: 80px;
   color: #3d465a;
 }
+
+.social-icon i{
+  font-size: 40px;
+  color: #273043;
+  margin-right: 20px;
+}
+
+.social-icon i:hover{
+    color: #ffffff;
+}
 /*/footer-area*/
