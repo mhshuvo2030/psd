@@ -1,49 +1,196 @@
 /*mobile-divice*/
 
-/*@media only screen and (max-width:600px){
+@media only screen and (max-width:600px){
 	.container{
 		width: 100%;
+	 }
+	.header-top{
+        flex-direction: column;
+        padding-top: 35px;
+    }
+    .nav-menu-area{
+	   flex-direction: column;
+	   margin-top: 20px;
+    }
+    .primary-menu{
+	    margin: 0;
+    }
+    .primary-menu ul{
+	    margin: 0;
+	    padding: 0;
+    }
+    nav.primary-menu ul li a {
+	    font-size: 13px;
+	    line-height: 35px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+    }
+    .app-primary-button {
+       padding: 11px 31px;
+       border-radius: 50px;
+       font-size: 12px;
+
+    }
+    .app-button{
+	   margin-top: 15px;
+    }
+    .app-banner{
+       flex-direction: column;
+       /*! margin-left: 70px; */
+    }
+    .promotional-text {
+       width: 100%;
+       gap: 7px;
+    }
+    .promotional-text h2{
+	   margin-bottom: 0;
+	   font-size: 20px;
+    }
+    .app-banner-content h2 {
+      color: var(--App-Font-Color);
+      font-size: 40px;
+     line-height: 50px;
+    }
+    .paragraph{
+
+    }
+   .app-banner-right {
+       /*! margin-right: 124px; */
+    }
+    .like-logos {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 100px;
+     }
+     .like h2 {
+       margin-top: 50px;
+     }
+
+	.Awesome-apps-left img {
+		 width: 100%;
 	}
 
-}*/
-/*.header-top{
-   flex-direction: column;
-   padding-top: 35px;
+   .Awesome-apps {
+      display: flex;
+      gap: 50px;
+      flex-direction: column;
+     }
+     .awsome-apps-single-area {
+       margin-top: 50px;
+    }
+     .smart-area {
+     flex-direction: column;
 }
-.nav-menu-area{
-	flex-direction: column;
-	margin-top: 20px;
-}
-.primary-menu{
-	margin: 0;
+    .smart-left h2 {
+      font-size: 20px;
+      border-bottom: 3px solid #b9b9b8;
+  }
+  .smart-right p {
+      font-size: 20px;
+   }
+  .Automatic-Payouts {
+     flex-direction: column;
+    }
+    .integration-area {
+        flex-direction: column;
+    }
+    .integration-img img {
+        width: 100%;
+    }
+   .integration-content.section-heading {
+        text-align: center;
+    }
+    .app-devlopment-top {
+      flex-direction: column;
+    }
+    .app-devlopment-down {
+      flex-direction: column;
+    }
+    .devlopment-down-content {
+      text-align: center;
+    }
+    .app-banner-content p {
+     width: 100%;
+    }
+
+    .app-banner-content {
+      text-align: center;
+    }
+    .smart-left h2 {
+    	border-right: none;
+    }
+ 
+    .Ux-planing-area {
+      flex-direction: column;
+    }
+    .Ux-planing-left-one {
+      flex-direction: column;
+    }
+    .Ux-planing-left-two {
+     flex-direction: column;
+    }
+    .left p {
+     font-size: 20px;
+   }
+
+   .Ux-planing-right img {
+     width: 100%;
+     margin-top: 70px;
+    }
+    .pricing-table-content {
+      flex-direction: column;
+    }
+    .section-heading h2 {
+      font-size: 30px;
+     line-height: 40px;
+    }
+    .section-heading p {
+       font-size: 10px;
+       line-height: 20px;
+    }
+    .meet-client-area {
+      flex-direction: column;
+     }
+     .meet-client-pic img {
+      width: 100%;
+    }
+    .meet-client-content-two p {
+      width: 100%;
+     }
+
+    .meet-client-right {
+      text-align: center;
+    }
+
+    .meet-client-contant {
+       margin-top: 30px;
+    }
+    .footer-top-area {
+      flex-direction: column;
+    }
+    .footer-top-content h2 {
+       font-size: 26px;
+    }
+    .footer-top-area-left {
+      margin-left: 0;
+    }
+    .footer-top-content p {
+      font-size: 10px;
+      line-height: 20px;
+    }
+	 .footer-menu ul {
+	    gap: 21px;
+	}
+
+	.footer-top-area-right img {
+	  width: 100%;
+	  margin-top: 50px;
+	}
+	.footer-menu ul li a {
+	  font-size: 14px;
+	  line-height: 40px;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
 
 }
-.primary-menu ul{
-	margin: 0;
-	padding: 0;
-}
-nav.primary-menu ul li a {
-    font-size: 13px;
-    line-height: 35px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.app-primary-button {
-    padding: 11px 31px;
-    border-radius: 50px;
-    font-size: 12px;
-
-}
-.app-button{
-	margin-top: 15px;
-}
-.app-banner{
-    flex-direction: column;
-}
-.promotional-text {
-    width: 100%;
-    gap: 7px;
-}
-.promotional-text h2{
-	margin-bottom: 0;
-}*/
