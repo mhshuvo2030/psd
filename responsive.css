@@ -1,0 +1,49 @@
+/*mobile-divice*/
+
+/*@media only screen and (max-width:600px){
+	.container{
+		width: 100%;
+	}
+
+}*/
+/*.header-top{
+   flex-direction: column;
+   padding-top: 35px;
+}
+.nav-menu-area{
+	flex-direction: column;
+	margin-top: 20px;
+}
+.primary-menu{
+	margin: 0;
+
+}
+.primary-menu ul{
+	margin: 0;
+	padding: 0;
+}
+nav.primary-menu ul li a {
+    font-size: 13px;
+    line-height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.app-primary-button {
+    padding: 11px 31px;
+    border-radius: 50px;
+    font-size: 12px;
+
+}
+.app-button{
+	margin-top: 15px;
+}
+.app-banner{
+    flex-direction: column;
+}
+.promotional-text {
+    width: 100%;
+    gap: 7px;
+}
+.promotional-text h2{
+	margin-bottom: 0;
+}*/

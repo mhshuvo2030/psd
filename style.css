@@ -615,7 +615,43 @@ nav.primary-menu ul li a {
   margin-top: 150px;
   margin-bottom: 60px;
 }
+/*accordian-iem*/
+.amaderclass-here{
+    margin-top: 50px;
 
+    margin-bottom: 100px;
+}
+.amaderclass-here .accordion-item{
+    border: 0;
+    background-color: #f5f7fa;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.amaderclass-here .accordion-button {
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--App-Font-Color);
+}
+
+.bootstrap {
+  text-align: center;
+  margin-top: 40px;
+}
+.bootstrap h2 {
+  font-weight: 600;
+  color: var(--App-Font-Color);
+  font-size: 30px;
+  line-height: 46px;
+  margin-bottom: 30px;
+  background-color: gray;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+/*accordian-iem*/
 .footer-top-area {
   display: flex;
   justify-content: space-between;
