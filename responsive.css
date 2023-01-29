@@ -38,18 +38,23 @@
        flex-direction: column;
        /*! margin-left: 70px; */
     }
+    
+	.app-banner-right img {
+	  width: 100%;
+	}
     .promotional-text {
        width: 100%;
        gap: 7px;
     }
+
     .promotional-text h2{
 	   margin-bottom: 0;
 	   font-size: 20px;
     }
     .app-banner-content h2 {
       color: var(--App-Font-Color);
-      font-size: 40px;
-     line-height: 50px;
+      font-size: 29px;
+     line-height: 40px;
     }
     .paragraph{
 
@@ -81,6 +86,7 @@
      .smart-area {
      flex-direction: column;
 }
+
     .smart-left h2 {
       font-size: 20px;
       border-bottom: 3px solid #b9b9b8;
@@ -102,6 +108,7 @@
     }
     .app-devlopment-top {
       flex-direction: column;
+      margin-top: 50px;
     }
     .app-devlopment-down {
       flex-direction: column;
@@ -112,13 +119,20 @@
     .app-banner-content p {
      width: 100%;
     }
-
+	.app h2 {
+	  font-size: 30px;
+	  line-height: 40px;
+	  margin-bottom: 10px;
+	}
     .app-banner-content {
       text-align: center;
     }
     .smart-left h2 {
     	border-right: none;
     }
+	.Ux-planing-left {
+	    margin-left: 20px;
+	}
  
     .Ux-planing-area {
       flex-direction: column;
@@ -132,6 +146,14 @@
     .left p {
      font-size: 20px;
    }
+   .devlopment-down-content h2 {
+	  font-size: 35px;
+	  line-height: 42px;
+	  margin-top: 17px;
+    }
+   .devlopment-down-content p {
+     font-size: 15px;
+    }
 
    .Ux-planing-right img {
      width: 100%;
@@ -140,13 +162,30 @@
     .pricing-table-content {
       flex-direction: column;
     }
-    .section-heading h2 {
-      font-size: 30px;
-     line-height: 40px;
+    .pricing-table-top {
+      width: 100%;
+     }
+    .pricing-table-button{
+    	width: 280px;
     }
+    .Network h2 {
+     font-size: 25px;
+    }
+    .section-heading h2 {
+      font-size: 23px;
+     line-height: 32px;
+     margin-bottom: 20px;
+
+    }
+    .Automatic-Payouts {
+     gap: 20px;
+     }
     .section-heading p {
-       font-size: 10px;
-       line-height: 20px;
+       font-size: 18px;
+       line-height: 24px;
+    }
+    .border-area {
+      margin-top: 20px;
     }
     .meet-client-area {
       flex-direction: column;
@@ -156,7 +195,12 @@
     }
     .meet-client-content-two p {
       width: 100%;
+      padding: 9px;
+      font-size: 13px;
      }
+     .client-area {
+       padding: 5px;
+    }
 
     .meet-client-right {
       text-align: center;
@@ -171,13 +215,22 @@
     .footer-top-content h2 {
        font-size: 26px;
     }
+    .footer-top-content {
+      margin-top: 90px;
+      padding: 5px;
+     }
     .footer-top-area-left {
       margin-left: 0;
     }
     .footer-top-content p {
-      font-size: 10px;
+      font-size: 13px;
       line-height: 20px;
     }
+    .footer-top-image {
+       margin-top: 30px;
+       gap: 20px;
+       padding: 5px;
+     }
 	 .footer-menu ul {
 	    gap: 21px;
 	}
@@ -192,5 +245,8 @@
 	  padding-left: 0;
 	  padding-right: 0;
 	}
+	ol, ul {
+      padding-left: 0;
+    }
 
 }
